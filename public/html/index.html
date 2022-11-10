@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>FoxTechnica</title>
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/fonts.css">
+</head>
+<body>
+<div class="container">
+    <header>
+        <img class="page-logo" alt="" src="../img/logo.svg"/>
+        <div class="fixed-position-marker">
+            <img class="page-logo-card" alt="" src="../img/marker.png"/>
+            <div class="flex-column-card">
+                <a class="normal">Удобное местоположение</a>
+                <a class="normal-big orange">Смотреть на карте</a>
+            </div>
+            <div class="flex-column-card whatsapp">
+                <a class="normal">Задайте нам вопрос:</a>
+                <a class="bold">WhatsApp</a>
+            </div>
+            <img class="page-logo-card whatsapp-logo" alt="" src="../img/Whatsapp.png"/>
+            <div class="flex-column-card whatsapp-number">
+                <a class="bold-big">+7 (999) 999-99-99</a>
+                <a class="normal">Работаем без выходных</a>
+            </div>
+        </div>
+    </header>
+    <nav>
+        <a class="semibold">О нас</a>
+        <a class="semibold">Услуги</a>
+        <a class="semibold">Примеры работ</a>
+        <a class="semibold">Зачем переходить на линукс?</a>
+        <a class="semibold">Контакты</a>
+    </nav>
+    <div class="hero">
+        <div class="hero-text">
+            <a class="bold-big very-big-text">
+                <orange>Бесплатное</orange>
+                удаление вирусов и дешевая установка ПО на ваши ПК!
+            </a>
+            <a class="normal hero-subtext">
+                Установка
+                <orange>ПО</orange>
+                и обучение использования <span class="bold-big big-bold-normal">Linux Ubuntu</span>
+            </a>
+            <form class="send-feedback">
+                <div>
+                    <input placeholder="+7 (977) 777-77-77" class="phone-number-input" type="number">
+                    <button class="send-button">Установить ПО</button>
+                </div>
+                <div class="down-send-feedback">
+                    <input type="checkbox" class="checkbox-policy">
+                    <a class="text-policy">Политика конфиденциальности</a>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="vendors">
+        <a class="vendors-text">Работаем
+            <orange>со всеми</orange>
+            вендорами материнских плат!</a>
+        <div class="slider">
+            <button class="slider-button" onclick="scroll_left(); return false;"><img
+                    src="../img/button-slider-start.svg"></button>
+            <div class="slider-inner">
+                <div class="slider-block _active" id="aorus">
+                    <img src="../img/aorus.png">
+                </div>
+                <div class="slider-block _active" id="gigabyte">
+                    <img src="../img/gigabyte.png">
+                </div>
+                <div class="slider-block _active" id="asrock">
+                    <img src="../img/asrock.png">
+                </div>
+                <div class="slider-block _active" id="huananzi">
+                    <img src="../img/huananzi.png">
+                </div>
+                <div class="slider-block _active" id="msi">
+                    <img src="../img/msi.png">
+                </div>
+                <div class="slider-block _active" id="maxsun">
+                    <img src="../img/maxsun.png">
+                </div>
+                <div class="slider-block _notactive" id="sus">
+                    <img src="../img/sus.png">
+                </div>
+                <div class="slider-block _notactive" id="bigtreetech">
+                    <img src="../img/bigtreetech.png">
+                </div>
+                <div class="slider-block _notactive" id="biostar">
+                    <img src="../img/biostar.png">
+                </div>
+            </div>
+            <button class="slider-button end" onclick="scroll_right(); return false;"><img
+                    src="../img/button-slider.svg"></button>
+        </div>
+    </div>
+    <div class="services">
+        <a class="bold not-very-big-text service-text">Услуги и цены</a>
+        <div class="services-inner">
+            <div class="service">
+                <div class="bold service-header">
+                    <a>От 0₽</a>
+                </div>
+                <div class="service-body">
+                    <img src="../img/ubunty-logo.png">
+                    <a class="service-body-text bold-big">Установка<br>Linux Ubuntu</a>
+                </div>
+            </div>
+            <div class="service">
+                <div class="bold service-header">
+                    <a>От 0₽</a>
+                </div>
+                <div class="service-body">
+                    <img src="../img/ubunty-logo.png">
+                    <a class="service-body-text bold-big">Установка<br>антивируса</a>
+                </div>
+            </div>
+            <div class="service">
+                <div class="bold service-header">
+                    <a>От 0₽</a>
+                </div>
+                <div class="service-body">
+                    <img src="../img/ubunty-logo.png">
+                    <a class="service-body-text bold-big">Обучение<br>работе с SSH</a>
+                </div>
+            </div>
+            <div class="service">
+                <div class="service-body">
+                    <img src="../img/ubunty-logo.png">
+                    <a class="service-body-text bold-big">Индивидуальная<br>сборка PC</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--<div class="yandex-top-helper">xexe</div>-->
+</body>
+<script src="../js/slider.js"></script>
+</html>
