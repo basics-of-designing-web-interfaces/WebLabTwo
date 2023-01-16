@@ -51,16 +51,13 @@ nav {
 }
 
 .yandex-top-helper {
-    width: 0;
-    height: 0;
-    border-width: 73px 28px 13px;
-    border-style: solid;
-    border-color: #E95557 #E95557 transparent;
-    position: absolute;
     top: 0;
-    left: 362px;
+    left: 537px;
+    width: 58px;
+    height: 87px;
+    background: url("../img/yandex-group.png");
+    position: absolute;
 }
-
 .page-logo-card {
     margin-left: 85px;
     margin-top: 2px;
@@ -186,6 +183,7 @@ nav {
     font-weight: 400;
     font-size: 14px;
     text-decoration: underline;
+    text-align: center;
 }
 
 .vendors-text {
@@ -416,4 +414,272 @@ white {
     font-family: "Montserrat", serif;
     font-weight: 700;
     border-radius: 10px;
+}
+
+.work-example {
+    margin-left: 133px;
+}
+
+.example-slider {
+    display: flex;
+    margin-top: 65px;
+    margin-left: 7px;
+}
+
+.example-card {
+    margin-left: 38px;
+    margin-top: 44px;
+}
+
+.example-card-block {
+    display: flex;
+    padding: 18px 20px 18px 42px;
+    border-radius: 12px;
+    margin-top: 30px;
+    width: 470px;
+    height: 78px;
+    background-color: #353535;
+}
+
+.example-card-block-content-float {
+    font-family: "Montserrat", serif;
+    font-weight: 600;
+    width: 200px;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+.float-right {
+    padding-right: 14px;
+    padding-bottom: 7px;
+    border-right: 1px solid gray;
+}
+
+.big-percents {
+    margin-top: 10px;
+}
+
+.float-left {
+    margin-top: 15px;
+    margin-left: 45px;
+}
+
+.example-footer {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.example-footer .send-button {
+    margin-left: 0;
+    width: 260px;
+}
+
+.slider-button-example {
+    background: none;
+    border: none;
+}
+
+.buttons {
+    margin-top: 16px;
+    margin-left: 10px;
+}
+
+.appointment {
+    background: url("../img/Rectangle 47.png");
+    margin-top: 90px;
+    height: 480px;
+    padding-left: 137px;
+    padding-top: 80px;
+    display: flex;
+
+}
+
+.list-appointment {
+    padding-left: 30px;
+    margin-top: 35px;
+    margin-bottom: 0;
+}
+
+li.bold-big {
+    color: #FD7900;
+    padding-bottom: 20px;
+}
+
+li span {
+    color: white;
+}
+
+.text-buy {
+    line-height: 150%;
+}
+
+.wrapper-text-buy {
+    width: 470px;
+    margin-left: 7px;
+}
+
+.wrapper-text-buy-list {
+    margin: 0;
+    padding-left: 21px;
+}
+
+.form-to-send {
+    margin-left: 107px;
+    margin-top: 53px;
+    text-align: center;
+}
+
+.form-input {
+    height: 44px;
+    width: 190px;
+    padding: 0;
+    margin-top: 20px;
+    margin-right: 0;
+    background: none;
+    border: 2px solid gray;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.form-input:nth-child(odd) {
+    margin-right: 20px;
+}
+
+.form-send {
+    width: 500px;
+    margin-top: 13px;
+}
+
+.small-button {
+    margin-left: -15px;
+    margin-top: 30px;
+    width: 200px;
+    height: 50px;
+}
+
+.feedback {
+    margin-left: 115px;
+}
+
+.advert-cards {
+    margin-top: 100px;
+    margin-left: 140px;
+}
+
+.cards-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 0 0;
+    margin-top: 65px;
+}
+
+.advert-card {
+    width: 560px;
+    height: 300px;
+    background-color: #353535;
+    border-radius: 25px;
+    margin-bottom: 30px;
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+    margin-left: 40px;
+    width: 440px;
+    line-height: 150%;
+}
+
+.card-img {
+    width: 100px;
+}
+
+.info-map {
+    margin-top: 155px;
+    margin-left: 140px;
+}
+
+.info-map-title {
+    line-height: 310%;
+    width: 800px;
+}
+
+.info-map-info {
+    margin-top: 60px;
+}
+
+.small-phone {
+    margin-top: 20px;
+}
+
+.info-block {
+    margin-top: 40px;
+}
+
+.info-block-content {
+    display: block;
+    width: 370px;
+    margin-top: 15px;
+}
+
+.info-map-content {
+    display: flex;
+}
+
+.info-map-map {
+    margin-left: 150px;
+}
+
+footer {
+    height: 300px;
+    margin-top: 90px;
+    background-color: #353535;
+    position: relative;
+}
+
+.footer-block {
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 140px;
+    background-color: white;
+    width: 490px;
+    height: 220px;
+    border-radius: 12px;
+}
+
+.small-logo {
+    width: 550px;
+}
+
+.footer-block p {
+    margin: 0 0 0 40px;
+}
+
+.footer-block .text-policy-block {
+    margin-top: 20px;
+    margin-left: 32px
+}
+
+.footer-links {
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 660px;
+}
+
+.footer-links a {
+    margin-left: 20px;
+}
+.phone-numbers {
+    position: absolute;
+    margin-top: 160px;
+    margin-left: 960px;
+    text-align: end;
+}
+.phone-numbers p {
+    margin: 0;
 }
